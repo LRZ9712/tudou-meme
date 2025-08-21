@@ -2,7 +2,9 @@
 
 🚀 基于  [meme-generator](https://github.com/MemeCrafters/meme-generator) 做的扩展表情包仓库
 
-## [表情列表](docs/meme_keywords.md)
+## [表情列表]
+
+还没做有空在做点开文件夹凑合看hh
 
 ## 使用方式
 
@@ -11,5 +13,8 @@
 ## 声明
 
 本仓库的表情素材等均来自网络，如有侵权请联系作者删除
+
+## 可以加群交流
+QQ：1060336833
 
 
