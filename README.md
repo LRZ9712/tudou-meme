@@ -2,9 +2,9 @@
 
 🚀 基于  [meme-generator](https://github.com/MemeCrafters/meme-generator) 做的扩展表情包仓库
 
-## 表情列表
+## 按需直链下载
 
-还没做有空在做点开文件夹凑合看hh
+https://tudu.dpdns.org:5666/s/6363fade39404a51bf  密码：LRZ9712
 
 ## 使用方式
 
