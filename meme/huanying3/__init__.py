@@ -35,7 +35,7 @@ add_meme(
     huanying,
     min_images=1,
     max_images=1,
-    keywords=["欢迎"],
+    keywords=["欢迎新人"],
     date_created=datetime(2023, 1, 8),
     date_modified=datetime(2023, 2, 14),
 )
