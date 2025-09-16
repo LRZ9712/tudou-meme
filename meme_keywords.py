@@ -2,7 +2,7 @@ import os
 import ast
 from datetime import datetime
 
-MEMES_DIR = "./memes"
+meme_DIR = "./meme"
 OUTPUT_DIR = "./docs"
 OUTPUT_FILE = os.path.join(OUTPUT_DIR, "meme_keywords.md")
 
@@ -96,7 +96,7 @@ def generate_markdown_table(modules_info, previews_by_module):
     
     for idx, (module, info) in enumerate(modules_info, 1):
         kw_str = "<br/>".join(info["keywords"]) if info["keywords"] else "&nbsp;"
-        module_link = f'<a href="https://github.com/{GITHUB_REPO}/tree/master/memes/{module}">{module}</a>'
+        module_link = f'<a href="https://github.com/{GITHUB_REPO}/tree/master/meme/{module}">{module}</a>'
         date_str = info["date_created"].strftime("%Y-%m-%d") if info["date_created"] else "&nbsp;"
         image_count = str(info.get("min_images")) if info.get("min_images") is not None else "&nbsp;"
         text_count = str(info.get("min_texts")) if info.get("min_texts") is not None else "&nbsp;"
@@ -129,8 +129,8 @@ def main():
     modules_info = []
     previews_by_module = {}
 
-    for folder in os.listdir(MEMES_DIR):
-        subdir = os.path.join(MEMES_DIR, folder)
+    for folder in os.listdir(meme_DIR):
+        subdir = os.path.join(meme_DIR, folder)
         init_file = os.path.join(subdir, "__init__.py")
 
         if os.path.isdir(subdir) and os.path.isfile(init_file):
