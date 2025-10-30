@@ -5,7 +5,7 @@
 
 ## 表情列表
 
-预览 [点击跳转](http://m.tudool.dpdns.org/)
+预览 [点击跳转](http://me.tudouu.cn/)
 
 ## 使用方式
 
