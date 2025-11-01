@@ -5,7 +5,7 @@
 
 ## 表情列表
 
-预览 [点击跳转](http://me.tudouu.cn/)
+预览 [点击跳转](http://meme.tudouu.cn/)
 
 ## 使用方式
 
