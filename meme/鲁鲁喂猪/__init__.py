@@ -188,10 +188,17 @@ def lulu_feed_pig(images: list[BuildImage], texts, args):
     # 计算总帧数
     total_frames = max(len(positions) for positions in avatar_positions)
     
-    # 预处理头像 - 所有头像都变成圆形
+    # 预处理头像 - 自动补满8个头像
     processed_avatars = []
-    for i in range(min(len(images), 8)):  # 最多8个头像
-        avatar = images[i].convert("RGBA")
+    
+    # 如果用户提供的头像不足8个，用第一个头像补满
+    for i in range(8):
+        if i < len(images):
+            # 使用用户提供的头像
+            avatar = images[i].convert("RGBA")
+        else:
+            # 用第一个头像补满
+            avatar = images[0].convert("RGBA")
         
         # 计算该头像的最大尺寸
         if i < len(avatar_positions):
@@ -223,7 +230,7 @@ def lulu_feed_pig(images: list[BuildImage], texts, args):
                 frame = BuildImage.new("RGBA", (500, 400), (255, 255, 255, 0))
         
         # 为每个头像处理当前帧的位置
-        for avatar_idx in range(min(len(processed_avatars), 8)):
+        for avatar_idx in range(8):  # 固定处理8个头像
             if avatar_idx >= len(avatar_positions):
                 continue
                 
@@ -259,8 +266,8 @@ def lulu_feed_pig(images: list[BuildImage], texts, args):
 add_meme(
     "lulu_feed_pig",
     lulu_feed_pig,
-    min_images=2,
-    max_images=8,
+    min_images=1,  # 最少只需要1个头像
+    max_images=8,  # 最多8个头像
     keywords=["鲁鲁喂猪", "鲁鲁养猪"],
     date_created=datetime(2025, 11, 19),
     date_modified=datetime(2025, 11, 19),
