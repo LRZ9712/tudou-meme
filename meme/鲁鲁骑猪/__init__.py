@@ -62,7 +62,7 @@ add_meme(
     lulu_qizhu,
     min_images=1,
     max_images=1,
-    keywords=["鲁鲁骑猪", "骑猪"],
+    keywords=["鲁鲁骑猪"],
     date_created=datetime(2023, 1, 8),
     date_modified=datetime(2023, 2, 14),
 )
