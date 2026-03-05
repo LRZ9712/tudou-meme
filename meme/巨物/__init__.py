@@ -18,7 +18,7 @@ def juwu(images: list[BuildImage], texts: list[str], args: MemeArgsModel):
 
     def make(imgs: list[BuildImage]) -> BuildImage:
         # 头像同样缩放到 640x640
-        img = imgs[0].convert("RGBA").resize((img_w, img_h), keep_ratio=False)
+        img = imgs[0].convert("RGB").resize((img_w, img_h), keep_ratio=False)
         # 叠加图覆盖上去
         img.paste(mask, alpha=True)
         return img
