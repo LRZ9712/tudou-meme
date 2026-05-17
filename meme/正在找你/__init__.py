@@ -28,13 +28,14 @@ def zheng_zai_zhao_ni(images: list[BuildImage], texts: list[str], args: ZhengZai
     except FileNotFoundError:
         raise FileNotFoundError("错误：模板图片 '0.png' 未找到。")
 
-    # 确定显示的文本
-    if texts:
+    # 确定显示的文本 - 添加兜底文本
+    if texts and texts[0].strip():
         name = texts[0]
-    elif args.user_infos:
+    elif args.user_infos and args.user_infos[0].name:
         name = args.user_infos[0].name
     else:
-        name = args.sender_info.name
+        # 兜底文本
+        name = "前任"
     
     # 修正：移除 fontsize= 关键字参数，改为位置参数
     text_img = Text2Image.from_text(name, 28, fill="black").to_image()
