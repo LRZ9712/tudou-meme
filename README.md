@@ -16,7 +16,7 @@
 
 ## 投稿
   [去制作](https://meke.tudouu.cn/) 
-可视化制作台，1分钟做完一个表情模版，点提交审核即可
+可视化制作台，1分钟做完一个表情模版，点提交审核即可，自动下载zip
 制作教程：https://meke.tudouu.cn/jiaocheng.html
 <img width="1920" height="919" alt="image" src="https://github.com/user-attachments/assets/46628ac8-f47d-4094-8008-e4f1d1c705af" />
 
