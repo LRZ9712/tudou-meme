@@ -15,7 +15,7 @@
 参考 [`meme-generator` 加载其他表情的方式](https://github.com/MemeCrafters/meme-generator/wiki/%E5%8A%A0%E8%BD%BD%E5%85%B6%E4%BB%96%E8%A1%A8%E6%83%85)
 
 ## 投稿
-[模版制作]([https://](https://meke.tudouu.cn/)
+  [去制作](https://meke.tudouu.cn/) 
 可视化制作台，1分钟做完一个表情模版，点提交审核即可
 制作教程：https://meke.tudouu.cn/jiaocheng.html
 <img width="1920" height="919" alt="image" src="https://github.com/user-attachments/assets/46628ac8-f47d-4094-8008-e4f1d1c705af" />
