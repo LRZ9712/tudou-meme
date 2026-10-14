@@ -14,6 +14,13 @@
 
 参考 [`meme-generator` 加载其他表情的方式](https://github.com/MemeCrafters/meme-generator/wiki/%E5%8A%A0%E8%BD%BD%E5%85%B6%E4%BB%96%E8%A1%A8%E6%83%85)
 
+## 投稿
+[meme-generator]([https://](https://meke.tudouu.cn/))
+可视化制作台，1分钟做完一个表情模版，点提交审核即可
+<img width="1920" height="919" alt="image" src="https://github.com/user-attachments/assets/46628ac8-f47d-4094-8008-e4f1d1c705af" />
+
+
+本仓库的表情素材等均来自网络，如有侵权请联系作者删除
 
 ## 声明
 
