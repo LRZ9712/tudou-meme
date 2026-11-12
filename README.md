@@ -5,7 +5,8 @@
 
 ## 表情列表
 
-预览暂时无了
+[群友共同产出](https://meke.tudouu.cn/processed.html)
+只显示新的了旧的懒得展示了
 
 ## 使用方式
 
